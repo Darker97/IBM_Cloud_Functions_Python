@@ -1,4 +1,4 @@
-FROM ibmfunctions/action-python-v3.11
+FROM ibmfunctions/action-python-v3.7
 
 COPY requirements.txt /
 RUN pip install --no-cache-dir -r requirements.txt
